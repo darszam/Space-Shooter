@@ -1,7 +1,7 @@
-RollingBall/Temp/
-RollingBall/Library/
-RollingBall/Obj/
-RollingBall/ProjectSettings/ 
+Space Shooter/Temp/
+Space Shooter/Library/
+Space Shooter/Obj/
+Space Shooter/ProjectSettings/ 
 
 *.meta
 *.csproj
