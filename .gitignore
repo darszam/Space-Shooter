@@ -1,0 +1,12 @@
+RollingBall/Temp/
+RollingBall/Library/
+RollingBall/Obj/
+RollingBall/ProjectSettings/ 
+
+*.meta
+*.csproj
+*.unityproj
+*.sln
+*.user
+*.userprefs
+*.DS_store
