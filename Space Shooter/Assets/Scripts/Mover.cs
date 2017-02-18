@@ -15,7 +15,7 @@ public class Mover : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
         rb.velocity = transform.forward * speed;
-        Destroy(gameObject, 2.2f);
+       
 	}
     void Update()
     {
