@@ -10,7 +10,7 @@ public class Mover : MonoBehaviour {
     void Awake()
     {
         rb = GetComponent<Rigidbody>();
-        speed = 20;
+        
     }
 	// Use this for initialization
 	void Start () {
