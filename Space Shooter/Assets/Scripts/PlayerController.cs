@@ -13,8 +13,10 @@ public class PlayerController : MonoBehaviour
     public float tilt;
     public Boundary boundary;
     private Rigidbody rb;
+    private AudioSource audsor;
     void Awake()
     {
+        audsor = GetComponent<AudioSource>();
         rb = GetComponent<Rigidbody>();
         speed = 10;
         boundary.xMin = -10;
@@ -35,6 +37,7 @@ public class PlayerController : MonoBehaviour
         {
             nextFire = Time.time + fireRate;
             Instantiate(shot, shotSpawn.position, shotSpawn.rotation);
+            audsor.Play();
         }
     }
     void FixedUpdate()
