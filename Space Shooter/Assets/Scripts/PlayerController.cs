@@ -30,6 +30,8 @@ public class PlayerController : MonoBehaviour
     public float fireRate;
 
     private float nextFire;
+    public GUIText scoreText;
+    private int score;
 
     void Update()
     {

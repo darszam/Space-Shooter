@@ -2,6 +2,7 @@ Space Shooter/Temp/
 Space Shooter/Library/
 Space Shooter/Obj/
 Space Shooter/ProjectSettings/ 
+Space Shooter/Builds/
 
 *.meta
 *.csproj
